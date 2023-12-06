@@ -1,0 +1,100 @@
+.shadow-lg {
+    box-shadow: var(--bs-box-shadow-lg) !important;
+  }
+
+.p-3 {
+    margin-top: 2rem;
+    padding: 1rem !important;
+}
+
+.text-style {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.text-style-form {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    word-spacing: 0.001rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.rounded {
+    border-radius: var(--bs-border-radius) !important;
+}
+
+.input-group{
+    align-items: center !important;
+    margin-bottom: 1rem;
+}
+
+.input-group-text{
+    align-items: center !important;
+    background-color: #e3e4e5 !important;
+}
+
+.buttons-class{
+    margin-top: 2rem !important;
+    margin-left: 50rem !important;
+}
+
+.terms-class{
+    margin-top: 2rem !important;
+}
+
+/* additional styles go here */
+.text-style-form {
+    transition: color 0.5s ease-in-out;
+}
+
+.female-text {
+    color: black; /* Pink color for female text */
+}
+
+
+
+#file-upload-section {
+    border: 2px dashed #8cb8f4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+#file-upload-section:hover {
+background-color: #e2e3e5;
+}
+
+#file-input {
+display: none;
+}
+
+.cloud-icon {
+    font-size: 2rem; 
+    display: flex;
+    color: #8cb8f4;
+}
+
+.input-group-append {
+    cursor: pointer;
+}
+
+/* Target the date input and its calendar icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(65%) sepia(92%) saturate(416%) hue-rotate(178deg) brightness(88%) contrast(86%);
+}
+
+/* Additional styling for the date input */
+input[type="date"] {
+    color: white; /* Set the text color */
+}
+
